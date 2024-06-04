@@ -50,7 +50,7 @@ The [Capital One dataset](https://github.com/CapitalOneRecruiting/DS) simulates 
 ### Insights and Recommendations
 
 <p align="center">
-  <img src="https://jasminekuo.github.io/Fraud-Detection-Machine-Learning/Plots/feature_importance.png" alt="Feature Importance Plot" width="800">
+  <img src="https://github.com/jasminekuo/Fraud-Detection-Machine-Learning/blob/master/Plots/feature_importance.png" alt="Feature Importance Plot" width="800">
 </p>
 
 * **High-Risk Categories:** Airlines, online retail, rideshare, and unknown merchant countries.

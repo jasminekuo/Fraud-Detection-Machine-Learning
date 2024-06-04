@@ -20,7 +20,7 @@ In the escalating battle against financial fraud, advanced analytics and machine
 
 ## Dataset
 
-The [Capital One dataset] (https://github.com/CapitalOneRecruiting/DS) simulates real-world transactional dynamics, providing a valuable testing ground for fraud detection algorithms. It comprises:
+The [Capital One dataset](https://github.com/CapitalOneRecruiting/DS) simulates real-world transactional dynamics, providing a valuable testing ground for fraud detection algorithms. It comprises:
 
 * **Transactions:** 786,363
 * **Attributes:** 29 (including transaction amount, merchant details, dates, types, and security attributes like CVV matches)
@@ -48,6 +48,8 @@ The [Capital One dataset] (https://github.com/CapitalOneRecruiting/DS) simulates
 * **Threshold Optimization:** Adjustment of decision threshold to 0.4. **Final recall achieved: 0.89.**
 
 ### Insights and Recommendations
+
+![Feature Importance Plot](https://jasminekuo.github.io/Fraud-Detection-Machine-Learning/Plots/feature_importance.png)
 
 * **High-Risk Categories:** Airlines, online retail, rideshare, and unknown merchant countries.
 * **Protective Factors:** Fuel, mobile apps, online subscriptions, food delivery, POS Entry Mode 05, address verification.

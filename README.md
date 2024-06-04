@@ -41,10 +41,10 @@ The [Capital One dataset](https://github.com/CapitalOneRecruiting/DS) simulates 
 
 ### Model Development and Evaluation
 
-* **Class Imbalance Handling:** Oversampling (SMOTE) and undersampling techniques explored. **Undersampling proved most effective, improving recall from 0.07 to 0.70.**
-* **Model Selection:** Logistic regression, Random Forest, and XGBoost models evaluated. **Logistic regression chosen for further refinement.**
-* **Feature Selection (RFE):** Recursive feature elimination to identify the most impactful features. **12 key features selected, boosting recall to 0.79.**
-* **Hyperparameter Tuning:** Optimization of regularization parameters for the logistic regression model. **Elastic Net with l1 ratio of 0.95 and C of 0.1 ensured model stability.**
+* **Class Imbalance Handling:** Oversampling (SMOTE) and undersampling techniques explored. **Undersampling** proved most effective, improving recall from 0.07 to 0.70.
+* **Model Selection:** Logistic regression, Random Forest, and XGBoost models evaluated. **Logistic regression** chosen for further refinement.
+* **Feature Selection (RFE):** Recursive feature elimination to identify the most impactful features. **12 key features** selected, boosting recall to 0.79.
+* **Hyperparameter Tuning:** Optimization of regularization parameters for the logistic regression model. **Elastic Net** with l1 ratio of 0.95 and C of 0.1 ensured model stability.
 * **Threshold Optimization:** Adjustment of decision threshold to 0.4. **Final recall achieved: 0.89.**
 
 ### Insights and Recommendations
@@ -55,8 +55,6 @@ The [Capital One dataset](https://github.com/CapitalOneRecruiting/DS) simulates 
 
 * **High-Risk Categories:** Airlines, online retail, rideshare, and unknown merchant countries.
 * **Protective Factors:** Fuel, mobile apps, online subscriptions, food delivery, POS Entry Mode 05, address verification.
-* **Transaction Amount:**  Higher transaction amounts are more likely to be fraudulent. 
-* **Time-Based Patterns:** Fraudulent transactions tend to occur at specific times and days.
 
 **Strategic Recommendations:**
 
@@ -70,7 +68,7 @@ The [Capital One dataset](https://github.com/CapitalOneRecruiting/DS) simulates 
 
 * **Final Model:** The logistic regression model with undersampling, selected features, regularization, and optimized threshold achieved the best performance.
 * **Performance Metrics:** Detailed classification reports and visualizations are available in the project notebook.
-* **Economic Impact:** The model successfully identified approximately $748,348 in fraudulent transactions.
+* **Economic Impact:** The model successfully identified approximately **$748,348** in fraudulent transactions.
 
 ## Future Work
 
